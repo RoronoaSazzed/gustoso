@@ -1,0 +1,985 @@
+/*
+Author: RORONOA SAZZED
+Email: mysticyagami7@gmail.com
+URL: http://roronoasazzed.com
+
+/* media query for responsiveness
+@media (max-width: 767px) {}
+@media (min-width: 768px) {}
+@media (min-width: 1200px) {}
+*/
+
+/*        font-family: 'Playfair Display', serif;
+font-family: 'Alegreya', serif;
+font-family: 'Calligraffitti', cursive;*/
+
+.navbar-default{
+    background-color: black;
+    opacity: .7;
+    border-color: transparent;
+}
+.navbar-default .navbar-nav li a{
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+.navbar-default .navbar-nav .open li a,
+.navbar-default .navbar-nav li a:focus,
+.navbar-default .navbar-nav li a:hover{
+    color: #33ffff;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 1px;
+    box-shadow: 0 0 15px #2ecc71;
+    text-shadow: 0 0 1px black;
+    animation: btnNav .3s ease-in-out 0s 1 normal forwards;
+}
+
+.navbar-default .navbar-nav li .open a:focus,
+.navbar-default .navbar-nav li .open a:hover {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    word-spacing: 2px;
+    background-color: #202830;
+    box-shadow: 0 0 15px #2ecc71;
+    text-shadow: 0 0 1px black;
+    animation: btnNav .3s ease-in-out 0s 1 normal forwards;
+}
+@keyframes btnNav {
+    from {
+        color: white;;
+    }
+    to {
+        color: #ccffcc;
+    }
+}
+
+
+
+.btnMenu{
+    margin-top: 80px;
+    border-radius: 0%;
+    background-color: #6f6b63;
+    padding: 10px 40px;
+    border: 1px dashed whitesmoke;
+    opacity: .7;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Alegreya', serif;
+}
+
+.btnMenu:hover{
+    margin-top: 80px;
+    border-radius: 0%;
+    background-color: #68645B;
+    padding: 10px 40px;
+    border: 1px dashed whitesmoke;
+    opacity: .7;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Alegreya', serif;
+}
+
+
+
+.pWhite{
+    font-size: 20px;
+    color: whitesmoke;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+
+.btnMenu{
+    margin-top: 80px;
+    border-radius: 0%;
+    background-color: #6f6b63;
+    padding: 10px 40px;
+    border: 1px dashed whitesmoke;
+    opacity: .7;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Alegreya', serif;
+}
+
+.btnMenu:hover{
+    margin-top: 80px;
+    border-radius: 0%;
+    background-color: #68645B;
+    padding: 10px 40px;
+    border: 1px dashed whitesmoke;
+    opacity: .7;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Alegreya', serif;
+}
+
+
+
+
+
+
+
+.headerDiv{
+    background-image: url(../images/divOneBackground-min.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+
+
+
+
+
+/* artCakeDiv starts */
+
+
+
+.artCakeDiv{
+    background-image: url(../images/divTwoBackground-min.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 720px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.quote{
+    font-family: 'Calligraffitti', cursive;
+    font-size: 25px;
+    color: #a47d5e;
+}
+.commaL{
+    text-align: left !important;
+    color: #a47d5e;
+}
+.commaR{
+    text-align: right !important;
+    color: #a47d5e;
+}
+.positioning{
+    position: relative;
+}
+.cOfFour{
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 150px;
+    left: 200px;
+}
+.centerText{
+    font-size: 35px;
+    font-family: 'Alegreya', serif;
+    color: #a47d5e;
+    position: absolute;
+    top: 230px;
+    left: 265px;
+}
+
+/* panCakeDiv starts */
+
+.panCakeDiv{
+    background-image: url(../images/divThreeBackground-min.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 760px;
+}
+
+
+
+.digit{
+    font-size: 60px;
+}
+.positioningTow{
+    position: relative;
+}
+
+
+.blackTexts{
+    position: absolute;
+    top: 385px;
+    left: -650px;
+}
+
+
+/* breakFastDiv starts */
+
+.breakFastDiv{
+    background-image: url(../images/divFourBackground-min.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 740px;
+}
+
+.contentBreakfast{
+    padding-top: 75px;
+}
+
+.smallHeaderBig{
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.cookHeaderW{
+    color: white;
+    font-weight: bold;
+    font-family: 'Alegreya', serif;
+    letter-spacing: 2px;
+}
+
+.pGrey{
+    letter-spacing: 1px;
+    color: lightgrey;
+}
+.money{
+    font-size: 50px;
+    color: #b6a482;
+    font-family: 'Alegreya', serif;
+}
+
+.bbL{
+    color: black;
+    font-family: 'Alegreya', serif;
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    font-weight: bold;
+}
+
+.bbR{
+    color: black;
+    font-family: 'Alegreya', serif;
+    position: absolute;
+    top: 90px;
+    left: 350px;
+    font-weight: bold;
+}
+.borderMenu{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.menuTextT{
+    position: absolute;
+    top: 180px;
+    left: 80px;
+}
+.menuTextB{
+    position: absolute;
+    top: 350px;
+    left: 70px;
+}
+
+
+
+/* sandwichDiv starts */
+
+.sandwichDiv{
+    background-image: url(../images/divFiveBackground-min.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 920px;
+}
+
+.marginSandwich{
+    margin-top: -55px;
+}
+
+.cookHeaderBr{
+    font-weight: bold;
+    font-family: 'Alegreya', serif;
+    letter-spacing: 2px;
+    color: #a47d5e;
+}
+
+
+
+.digitB{
+    font-size: 45px;
+    color: #56534c;
+}
+.marginSandwichPic{
+    margin-top: 100px;
+}
+
+.btnFullRecipe{
+    position: absolute;
+    top: 90%;
+    left: -4%;
+    border-radius: 0%;
+    background-color: white;
+    padding: 8px 25px;
+    border: 1px dashed #a47d5e;
+    opacity: .8;
+    color: #a47d5e;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Alegreya', serif;
+}
+.btnFullRecipe:hover{
+    position: absolute;
+    top: 90%;
+    left: -4%;
+    border-radius: 0%;
+    background-color: whitesmoke;
+    padding: 8px 25px;
+    border: 1px dashed #a47d5e;
+    opacity: .9;
+    color: #a47d5e;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Alegreya', serif;
+}
+
+
+.two{
+    position: absolute;
+    top: 31%;
+    left: 59%;
+    opacity: .5;
+}
+.three{
+    position: absolute;
+    top: 63%;
+    left: 55%;
+    width: 27%;
+}
+
+
+
+
+
+.contentFinal{
+    padding-bottom: 75px;
+}
+
+/* bottom nav starts */
+
+.bottomNavDiv{
+    height: 120px;
+    background-color: #F3F1E9;
+}
+.contentBottomNav{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.bottomNav{
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+    border-bottom: 1px solid #56534c;
+    border-top: 1px solid #56534c;
+    padding: 10px 10px;
+}
+/* footer div starts */
+
+.lastDiv{
+    min-height: 70px;
+    background-color: #e2dfd1;
+}
+.contentLastDiv{
+    padding: 25px 0 25px 0;
+}
+
+.ftgl{
+    color: #938e78;
+}
+.ftgl:hover{
+    color: #7a7665;
+}
+
+.designedBy{
+    color: #938e78;
+}
+.myName{
+    color: #7a7665;
+}
+
+/*================================================================*/
+
+
+
+
+@media (min-width: 1200px) {
+    .mainHeader {
+        margin-top: 15% !important;
+        font-size: 120px;
+        font-family: 'Playfair Display', serif;
+        color: white;
+    }
+
+    .marginKhela {
+        margin-top: 2% !important;
+    }
+    .rInFourty {
+        position: absolute;
+        top: 17%;
+        left: 86% !important;
+        text-align: center;
+    }
+    .btnRead{
+        position: absolute;
+        top: 60%;
+        left: 20% !important;
+        margin-top: 80px;
+        border-radius: 0%;
+        background-color: transparent;
+        padding: 10px 40px;
+        border: 1px solid black;
+        opacity: .7;
+        color: black;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-family: 'Alegreya', serif;
+    }
+
+    .btnRead:hover{
+        position: absolute;
+        top: 60%;
+        left: 20% !important;
+        margin-top: 80px;
+        border-radius: 0%;
+        background-color: #cfcdc3;
+        padding: 10px 40px;
+        border: 1px solid black;
+        opacity: .6;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-family: 'Alegreya', serif;
+    }
+
+
+}
+
+/*@media (min-width: 1050px) {
+    .hiddenForM, .KhelaHiddenForTab, .one, .two, .three, .prep, .cook, .ready {
+        display: none;
+    }
+    .hiddenInMandT{
+        visibility: visible;
+    }
+}*/
+
+
+
+
+
+
+
+
+/*=============================================================*/
+
+
+/* Media query for tab */
+
+@media (min-width: 768px) {
+    .logoTop{
+        font-family: 'Calligraffitti', cursive;
+        font-size: 30px;
+        color: white;
+    }
+    .logoTop:focus,
+    .logoTop:active,
+    .logoTop:hover{
+        font-family: 'Calligraffitti', cursive;
+        font-size: 30px;
+        color: #33ffff;
+        animation: btnNav .3s ease-in-out 0s 1 normal forwards;
+        text-decoration: none;
+    }
+    .mainHeader {
+        margin-top: 21%;
+        font-size: 120px;
+        font-family: 'Playfair Display', serif;
+        color: white;
+    }
+    .pWhite{
+        font-size: 20px;
+        color: whitesmoke;
+        word-spacing: 5px;
+        letter-spacing: 3px;
+    }
+    .smallHeader{
+        font-size: 40px;
+        color: #56534c;
+        font-family: 'Alegreya', serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+    .pBlack{
+        letter-spacing: 1px;
+    }
+    .cookHeader{
+        font-weight: bold;
+        font-family: 'Alegreya', serif;
+        letter-spacing: 2px;
+    }
+    .cookName{
+        color: #56534c;
+        font-size: 25px;
+        font-family: 'Alegreya', serif;
+        border-top: 1px solid #56534c;
+        border-bottom: 1px solid #56534c;
+
+    }
+    .borderBottomPic{
+        width: 100%;
+        margin-top: -3%;
+    }
+    .marginKhela{
+        margin-top: 12%;
+    }
+    .tP{
+        text-align: left !important;
+        position: absolute;
+        top: 30%;
+        left: 50%
+    }
+    .blackTexts {
+        text-align: left !important;
+        position: absolute;
+        top: 47%;
+        left: 50%;
+    }
+    .circleImages {
+        width: 62%;
+        position: absolute;
+        top: 58%;
+        left: 40%;
+    }
+    .marginCircle{
+        margin-left: -7%;
+    }
+    .sF {
+        text-align: left !important;
+        position: absolute;
+        top: 43%;
+        left: 50%;
+    }
+    .rightTopImage {
+        position: absolute;
+        top: 7%;
+        left: 76%;
+    }
+    .rInFourty {
+        position: absolute;
+        top: 17%;
+        left: 89%;
+        text-align: center;
+    }
+    .contentPanCake{
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    .flower{
+        position: absolute;
+        top: 70%;
+        left: 30%;
+    }
+    .btnRead {
+        position: absolute;
+        top: 60%;
+        left: 35%;
+        margin-top: 80px;
+        border-radius: 0%;
+        background-color: transparent;
+        padding: 10px 40px;
+        border: 1px solid black;
+        opacity: .7;
+        color: black;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-family: 'Alegreya', serif;
+    }
+    .btnRead:hover{
+        position: absolute;
+        top: 60%;
+        left: 35%;
+        margin-top: 80px;
+        border-radius: 0%;
+        background-color: #cfcdc3;
+        padding: 10px 40px;
+        border: 1px solid black;
+        opacity: .6;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-family: 'Alegreya', serif;
+    }
+    .logoBottom{
+        font-family: 'Calligraffitti', cursive;
+        font-size: 40px;
+        color: #A47D5E;
+    }
+    .forSmallDevice{
+        display: none;
+    }
+/*    .prep{
+        position: absolute;
+        top: 9%;
+        left: 82%;
+    }
+    .cook{
+        position: absolute;
+        top: 43%;
+        left: 82%;
+    }
+
+    .ready{
+        position: absolute;
+        top: 73%;
+        left: 80%;
+    }*/
+    .subHeader {
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: -30px;
+        color: #a47d5e;
+        font-family: 'Alegreya', serif;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .KhelaHiddenForTab{
+        display: none;
+    }
+    .one{
+        display: none;
+    }
+    .two{
+        display: none;
+    }
+    .three{
+        display: none;
+    }
+}
+
+/*=========================================================*/
+
+/* Media query for mobile */
+
+@media (max-width: 767px) {
+    body{
+        overflow-x: hidden;
+    }
+    .logoTop{
+        margin-left: 10%;
+        font-family: 'Calligraffitti', cursive;
+        font-size: 30px;
+        color: white;
+    }
+    .logoTop:focus,
+    .logoTop:active,
+    .logoTop:hover{
+        font-family: 'Calligraffitti', cursive;
+        font-size: 30px;
+        color: #33ffff;
+        animation: btnNav .3s ease-in-out 0s 1 normal forwards;
+        text-decoration: none;
+    }
+    .mainHeader {
+        margin-top: 50%;
+        font-size: 45px;
+        font-family: 'Playfair Display', serif;
+        color: white;
+    }
+    .pWhite {
+        font-size: 12px;
+        color: whitesmoke;
+        word-spacing: 5px;
+        letter-spacing: 3px;
+    }
+    .smallHeader{
+        font-size: 35px;
+        color: #56534c;
+        font-family: 'Alegreya', serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+
+    .subHeader {
+        font-size: 15px;
+        font-weight: bold;
+        color: #a47d5e;
+        font-family: 'Alegreya', serif;
+    }
+    .pBlack {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    .cookHeader {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Alegreya', serif;
+        letter-spacing: 2px;
+    }
+    .cookName {
+        color: #56534c;
+        font-size: 15px;
+        font-family: 'Alegreya', serif;
+        border-top: 1px solid #56534c;
+        border-bottom: 1px solid #56534c;
+    }
+
+    .cOfFour {
+        position: absolute;
+        width: 45%;
+        top: 17%;
+        left: 29%;
+    }
+
+    .borderBottomPic {
+        width: 100%;
+        margin-top: -7%;
+    }
+    .panCakePicOne {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .panCakePicTwo {
+        width: 100%;
+        margin-top: 30%;
+    }
+    .hiddenForMobile{
+        display: none;
+    }
+    .tP{
+        text-align: left !important;
+        position: absolute;
+        top: 60%;
+        left: 3%;
+    }
+    .sF {
+        text-align: left !important;
+        position: absolute;
+        top: 68%;
+        left: 3%;
+    }
+    .blackTexts {
+        text-align: left !important;
+        position: absolute;
+        top: 73%;
+        left: 3%;
+    }
+    .rightTopImage {
+        width: 62%;
+        position: absolute;
+        top: 46%;
+        left: 50%;
+    }
+
+    .subHeaderSpecial{
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: -30px;
+        color: #a47d5e;
+        font-family: 'Alegreya', serif;
+    }
+    .digit{
+        font-size: 35px;
+    }
+
+    .rInFourty{
+        position: absolute;
+        top: 54%;
+        left: 73%;
+        text-align: center;
+    }
+    .circleImages{
+        display: none;
+    }
+    .contentPanCake{
+        padding-top: 25%;
+        padding-bottom: 25%;
+    }
+    .borderMenu {
+        width: 64%;
+        position: absolute;
+        top: 10%;
+        left: 15%;
+    }
+    .bbL {
+        color: black;
+        font-family: 'Alegreya', serif;
+        position: absolute;
+        top: 9%;
+        left: 23%;
+        font-weight: bold;
+    }
+    .bbR {
+        color: black;
+        font-family: 'Alegreya', serif;
+        position: absolute;
+        top: 9%;
+        left: 60%;
+        font-weight: bold;
+    }
+    .menuTextT {
+        position: absolute;
+        top: 19%;
+        left: 13%;
+    }
+    .smallHeaderSpecial {
+        font-size: 23px;
+        color: #56534c;
+        font-family: 'Alegreya', serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+    .menuTextB {
+        position: absolute;
+        top: 45%;
+        left: 7%;
+    }
+    .btnRead {
+        position: absolute;
+        top: 45%;
+        left: 25%;
+        margin-top: 80px;
+        border-radius: 0%;
+        background-color: transparent;
+        padding: 10px 40px;
+        border: 1px solid black;
+        opacity: .7;
+        color: black;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-family: 'Alegreya', serif;
+    }
+    .btnRead:hover{
+        position: absolute;
+        top: 45%;
+        left: 25%;
+        margin-top: 80px;
+        border-radius: 0%;
+        background-color: #cfcdc3;
+        padding: 10px 40px;
+        border: 1px solid black;
+        opacity: .6;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-family: 'Alegreya', serif;
+    }
+    .flower{
+        position: absolute;
+        top: 70%;
+        left: 45%;
+        width: 54%;
+    }
+    .marginSandwich {
+        margin-top: -23px;
+    }
+    .btnFullRecipe {
+        position: absolute;
+        top: 90%;
+        left: 2%;
+        border-radius: 0%;
+        background-color: white;
+        padding: 8px 25px;
+        border: 1px dashed #a47d5e;
+        opacity: .8;
+        color: #a47d5e;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-family: 'Alegreya', serif;
+    }
+    .btnFullRecipe:hover{
+        position: absolute;
+        top: 90%;
+        left: 2%;
+        border-radius: 0%;
+        background-color: whitesmoke;
+        padding: 8px 25px;
+        border: 1px dashed #a47d5e;
+        opacity: .9;
+        color: #a47d5e;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-family: 'Alegreya', serif;
+    }
+    .one{
+        width: 30%;
+        position: absolute;
+        top: -16%;
+        left: 65%;
+        opacity: .7;
+    }
+    .two{
+        width: 30%;
+        position: absolute;
+        top: 30%;
+        left: 65%;
+        opacity: .7;
+    }
+    .three{
+        width: 40%;
+        position: absolute;
+        top: 71%;
+        left: 60%;
+    }
+
+    .digitB{
+        font-size: 30px;
+    }
+
+/*    .prep{
+        position: absolute;
+        top: 3%;
+        left: 76%;
+    }
+    .cook{
+        position: absolute;
+        top: 50%;
+        left: 76%;
+    }
+    .ready{
+        position: absolute;
+        top: 93%;
+        left: 72%;
+    }*/
+    .logoBottom{
+        padding: 5% 5%;
+        font-family: 'Calligraffitti', cursive;
+        font-size: 40px;
+        color: #A47D5E;
+    }
+    .socialIcons{
+        text-align: center !important;
+    }
+
+    .designer{
+        text-align: center !important;
+    }
+    .hiddenForM{
+        display: none;
+    }
+}
